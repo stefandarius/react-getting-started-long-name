@@ -1,0 +1,15 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build: npm run build
+        deploy:
+            - npm install
+        start:
+            - npm install
+            - npm run dev
+    sdk:
+        language: ts
+name: gdsbauhgisdabgaiusdfdsagdsgdsahbasdhobghiadosbgqwioeybwqehiobgwoqhdibgwhdihaisvbfghwoqvghfwd
+region: us-east-1
+yamlVersion: 2
